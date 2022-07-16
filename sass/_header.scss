@@ -58,29 +58,29 @@
 //-header main
 .header-text {
    max-width: 1440px;
-   &__title {
-      margin-bottom: 18px;
-      font-weight: 500;
-      font-size: 13px;
-      text-align: center;
-      letter-spacing: 0.185em;
-      color: $orange;
-      text-align-last: left;
-   }
-   &__big-title {
-      margin-bottom: 25px;
-      font-weight: 700;
-      font-size: 50px;
-      line-height: 56px;
-      color: $dark-blue;
-   }
-   &__para {
-      margin-bottom: 50px;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 26px;
-      color: $light-blue;
-   }
+}
+.title {
+   margin-bottom: 18px;
+   font-weight: 500;
+   font-size: 13px;
+   text-align: center;
+   letter-spacing: 0.185em;
+   color: $orange;
+   text-align-last: left;
+}
+.big-title {
+   margin-bottom: 25px;
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 56px;
+   color: $dark-blue;
+}
+.para {
+   margin-bottom: 50px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   color: $light-blue;
 }
 .header-text__actions {
    display: flex;
