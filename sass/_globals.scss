@@ -1,0 +1,33 @@
+@use 'variables' as *;
+.wrapper {
+   max-width: 1440px;
+   margin: 0 auto;
+}
+body {
+   font-family: 'Dancing Script', cursive;
+   font-family: 'Poppins', sans-serif;
+   line-height: 1;
+   color: $light-blue;
+}
+a {
+   color: $light-blue;
+}
+.button {
+   display: inline-block;
+   padding: 12px 32px;
+   border: none;
+   border-radius: 5rem;
+   background-image: linear-gradient(to right bottom, $gradient-dark-orange, $gradient-light-orange);
+   color: white;
+   & + .button {
+      margin-left: 15px;
+   }
+   &--disable {
+      outline: 3px solid $border;
+      outline-offset: -2px;
+      border-radius: 5rem;
+      background-color: $white;
+      background-image: none;
+      color: $orange;
+   }
+}

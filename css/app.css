@@ -1,0 +1,118 @@
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Dancing Script", cursive;
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  color: #635F85;
+}
+
+a {
+  color: #635F85;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 5rem;
+  background-image: linear-gradient(to right bottom, #F67102, #F4A91E);
+  color: white;
+}
+.button + .button {
+  margin-left: 15px;
+}
+.button--disable {
+  outline: 3px solid #E7E7E7;
+  outline-offset: -2px;
+  border-radius: 5rem;
+  background-color: #fff;
+  background-image: none;
+  color: #F5830B;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+}
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+.header {
+  max-width: 1120px;
+  height: 50px;
+  margin: 30px auto 0;
+}
+.header__nav, .header__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  height: 25px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 465px;
+  height: 24px;
+}
+.menu-item {
+  position: relative;
+  color: #635F85;
+  font-weight: 500;
+  transition: all 150ms ease-in;
+}
+.menu-item::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  height: 3px;
+  left: 0;
+  right: 100%;
+  transform-origin: 0 0;
+  border-radius: 5px;
+  transition: all 150ms ease-in;
+}
+.menu-item:hover {
+  color: #F5830B;
+}
+.menu-item:hover::before {
+  transform-origin: 100% 100%;
+  right: 0;
+  background-color: #F5830B;
+}
+
+.header__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=app.css.map */
