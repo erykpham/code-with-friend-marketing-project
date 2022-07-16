@@ -1,6 +1,7 @@
 @use 'variables' as *;
 .wrapper {
-   max-width: 1440px;
+   max-width: 1464px;
+   padding: 0 24px;
    margin: 0 auto;
 }
 body {
@@ -14,11 +15,12 @@ a {
 }
 .button {
    display: inline-block;
-   padding: 12px 32px;
+   padding: 15px 32px;
    border: none;
    border-radius: 5rem;
    background-image: linear-gradient(to right bottom, $gradient-dark-orange, $gradient-light-orange);
    color: white;
+   cursor: pointer;
    & + .button {
       margin-left: 15px;
    }
